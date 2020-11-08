@@ -1,0 +1,395 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 18px;
+  margin-right: 20px;
+  color: white !important;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #3de0b5, #198e6d);
+  padding: 5px !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 0;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+/* Akhir Navbar */
+
+/* Utility */
+.fa-bars {
+  color: #fff;
+  font-size: 30px !important;
+}
+/* Akhir Utility */
+
+/* Home */
+#Home {
+  background-image: linear-gradient(to right, #3de0b5, #198e6d);
+  color: #fff;
+  padding-top: 5%;
+}
+
+.beranda {
+  margin-right: 0px;
+}
+
+.beranda h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.beranda p {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.tombol {
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.tombol .login {
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 130px;
+}
+
+.tombol .register {
+  border-radius: 50px;
+  width: 130px;
+}
+
+.gambar {
+  margin-top: 50px;
+}
+
+.bottom-img {
+  width: 100%;
+  margin-top: -5px;
+  height: 250px;
+}
+/* Akhir Home */
+
+/* Services */
+#Services {
+  padding: 80px 0;
+}
+
+.layanan img {
+  width: 120px;
+}
+
+.layanan h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.layanan p {
+  margin-top: 20px;
+}
+
+.tengah {
+  text-align: center;
+  padding: 0 -20px;
+}
+
+.judul {
+  text-transform: uppercase;
+  margin: 40px 0 100px 0;
+}
+
+.judul::after {
+  content: "";
+  display: block;
+  border-bottom: 5px solid #3de0b5;
+  width: 200px;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.more {
+  border: none;
+  box-shadow: none;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #3de0b5, #198e6d);
+  padding: 5px 25px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+/* Akhir Services */
+
+/* About Us */
+
+#About {
+  background: #f4f4f4;
+  padding: 40px 0;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.about p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.about h1 {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.about h1::after {
+  content: "";
+  display: inline-block;
+  border-bottom: 5px solid #3de0b5;
+  width: 200px;
+}
+
+/* Akhir About Us */
+
+/* Testimonials */
+
+#Testimonials {
+  padding: 80px 0;
+}
+
+.testi img {
+  height: 150px;
+  width: 100px;
+  text-align: center;
+}
+
+.nama {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.status {
+  text-align: center;
+}
+
+.testi {
+  border-bottom: 5px solid #3de0b5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.nama2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.pendapat {
+  border-bottom: 5px solid #3de0b5;
+  background: #f4f4f4;
+  padding-top: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Akhir Testimonials */
+
+/* Contacts */
+
+#Contacts {
+  padding: 40px 0;
+  background: #f4f4f4;
+}
+
+.sosmed img {
+  width: 100px;
+  padding: 0 15px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+.sosmed a:hover img {
+  transform: translateY(-10px);
+}
+
+.temukan {
+  padding-bottom: 20px;
+}
+
+.sosmed {
+  width: 500px;
+  border-top: 5px solid #3de0b5;
+  background: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+/* Akhir Contacts */
+
+/* Footer */
+
+#Footer {
+  background: #f4f4f4;
+  color: #f4f4f4;
+}
+
+.foot {
+  background-image: linear-gradient(to right, #198e6d, #3de0b5);
+  width: 100%;
+}
+
+.logo-footer {
+  padding: 20px 0;
+}
+
+.logo-footer p {
+  margin-top: 15px;
+}
+
+.our-office {
+  padding: 20px 0;
+}
+
+.our-office h4::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f4f4f4;
+  width: 80px;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.our-office h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.p-footer {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.p-footer i {
+  padding: 0 5px;
+}
+
+.p-footer2 {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.support h4::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f4f4f4;
+  width: 80px;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.support h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.support {
+  padding: 20px 0;
+}
+
+.top-img {
+  width: 100%;
+  height: 250px;
+  margin-top: 200px;
+  z-index: 20;
+}
+
+/* Akhir Footer */
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #fff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .navbar-brand img {
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .gambar {
+    margin-top: 0px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .testi img {
+    height: 150px;
+    width: 100px;
+    text-align: center;
+  }
+
+  .nama {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .status {
+    text-align: center;
+  }
+
+  .testi {
+    border-right: 5px solid #3de0b5;
+    text-align: center;
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .nama2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .pendapat {
+    border-bottom: none;
+    background: #f4f4f4;
+    padding-top: 10px;
+  }
+
+  .our-office h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .p-footer {
+    margin-top: 35px;
+    margin-right: 60px;
+  }
+}
